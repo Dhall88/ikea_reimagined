@@ -1,3 +1,26 @@
 nav {
     background-color: blue;
+    height: 20rem;
+}
+
+.test {
+    background: red;
+    height: 20rem;
+    width: 2vw;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+}
+
+svg {
+    display:block;
+}
+
+.nav-container {
+    background-color: blue
+}
+
+.ikea {
+    color: yellow;
+    font-size: 6rem;
+    text-align: center;
 }
