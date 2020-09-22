@@ -16,109 +16,261 @@
 
 </head>
 <body>
-<div class="nav-container">
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Dropdown link
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
+    <div class="nav-container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown link
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Products</a>
+                            <a class="dropdown-item" href="#">Rooms</a>
+                            <a class="dropdown-item" href="#">Deals</a>
+                            <a class="dropdown-item" href="#">New </a>
+                            <a class="dropdown-item" href="#">Inspiration</a>
+
+                        </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                
+                </ul>
+            </div>
+
+        </nav>
+        <h1 class="ikea">IKEA</h1>
+
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 50">
+                <path fill-opacity="1" d="M 0 0 C 50 10, 140 10, 190 0"></path>
+            </svg>
+
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="kitchen.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="bedroom.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="living_room.jpg" alt="Third slide">
+            </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </div>
             
-          </ul>
+    <div class="d-flex flex-row tiles">
+        <div class="bedroom"> Bedroom
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" height="100" width="100"
+            viewBox="0 0 96 96" style="enable-background:new 0 0 96 96;" xml:space="preserve">
+                <style type="text/css">
+                .st0{fill:#e8d44f;}
+                </style>
+                <g id="XMLID_1_">
+                    <path id="XMLID_7_" class="st0" d="M74,48.9V22h-6.5v6.5h-39V22H22v26.9c-2.2,0.7-4.3,1.4-6.5,2.3V74H22v-6.5h52V74h6.5V51.3
+                        C78.3,50.4,76.2,49.6,74,48.9z M67.5,35v12.1c-5.4-1.3-10.8-2.1-16.3-2.3V35H67.5z M28.5,35h16.3v9.8c-5.4,0.2-10.8,1-16.3,2.3V35z
+                            M22,61v-3.3h52V61H22z"/>
+                </g>
+            </svg>
         </div>
-
-      </nav>
-      <h1 class="ikea">IKEA</h1>
-      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 50">
-        <path fill="#fff" fill-opacity="1" d="M 0 0 C 50 10, 140 10, 190 0 V 50 H -190 V -50"></path>
-      </svg> -->
-
-
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 50">
-            <path fill-opacity="1" d="M 0 0 C 50 10, 140 10, 190 0"></path>
-        </svg>
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="kitchen.jpg" alt="First slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="bedroom.jpg" alt="Second slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="living_room.jpg" alt="Third slide">
-          </div>
+    
+        <div class="kitchen">Kitchen
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" height="100" width="100"
+            viewBox="0 0 96 96" style="enable-background:new 0 0 96 96;" xml:space="preserve">
+                <style type="text/css">
+                .st0{fill:#e8d44f;}
+                </style>
+                <g id="XMLID_1_">
+                    <path id="XMLID_5_" class="st0" d="M18.5,73.4h14.2V54.1H18.5V73.4z M28.9,62.6c0.7,0,1.2,0.5,1.2,1.2c0,0.7-0.5,1.2-1.2,1.2
+                        c-0.7,0-1.2-0.5-1.2-1.2C27.7,63.1,28.2,62.6,28.9,62.6z"/>
+                    <path id="XMLID_8_" class="st0" d="M35.8,79.5v-3v-3V51h-4.1h-2h-1H15.5v22.3v3v3h3v-3h14.2v3H35.8z M18.5,74.4h-1v-1V53.1h16.3
+                        v20.3v1h-1H18.5z"/>
+                    <path id="XMLID_11_" class="st0" d="M39.9,73.4h14.2V54.1H39.9V73.4z M51.2,62.6c0.7,0,1.2,0.5,1.2,1.2c0,0.7-0.5,1.2-1.2,1.2
+                        c-0.7,0-1.2-0.5-1.2-1.2C50,63.1,50.6,62.6,51.2,62.6z"/>
+                    <path id="XMLID_14_" class="st0" d="M57.1,79.5v-3v-3V51H45h-3h-2h-3v22.3v3v3h3v-3h14.2v3H57.1z M39.9,74.4h-1v-1V53.1h16.3v20.3
+                        v1h-1H39.9z"/>
+                    <rect id="XMLID_15_" x="61.2" y="62.2" class="st0" width="16.3" height="11.2"/>
+                    <path id="XMLID_23_" class="st0" d="M76.4,50h-5.1c-0.6,0-1,0.5-1,1h-2c0-0.6-0.5-1-1-1h-5.1c-0.6,0-1,0.5-1,1h-3v22.3v3v3h3v-3
+                        h16.3v3h3v-3v-3V51h-3C77.5,50.5,77,50,76.4,50z M73.8,54.7c0,0.7-0.5,1.2-1.2,1.2c-0.7,0-1.2-0.5-1.2-1.2c0-0.7,0.5-1.2,1.2-1.2
+                        C73.2,53.5,73.8,54,73.8,54.7z M76.4,58.2c0.3,0,0.5,0.2,0.5,0.5s-0.2,0.5-0.5,0.5H62.2c-0.3,0-0.5-0.2-0.5-0.5s0.2-0.5,0.5-0.5
+                        H76.4z M68.7,54.7c0,0.7-0.5,1.2-1.2,1.2c-0.7,0-1.2-0.5-1.2-1.2c0-0.7,0.5-1.2,1.2-1.2C68.2,53.5,68.7,54,68.7,54.7z M62.4,53.5
+                        c0.7,0,1.2,0.5,1.2,1.2c0,0.7-0.5,1.2-1.2,1.2c-0.7,0-1.2-0.5-1.2-1.2C61.2,54,61.7,53.5,62.4,53.5z M78.5,74.4h-1H61.2h-1v-1V61.2
+                        h18.3v12.2V74.4z M77.6,53.5c0.7,0,1.2,0.5,1.2,1.2c0,0.7-0.5,1.2-1.2,1.2c-0.7,0-1.2-0.5-1.2-1.2C76.4,54,77,53.5,77.6,53.5z"/>
+                    <path id="XMLID_26_" class="st0" d="M73.4,29.7V16.5h-9.1v13.2h-3l-4.1,7.1h23.4l-4.1-7.1H73.4z M73.6,34.5c-0.7,0-1.2-0.5-1.2-1.2
+                        c0-0.7,0.5-1.2,1.2-1.2c0.7,0,1.2,0.5,1.2,1.2C74.8,34,74.2,34.5,73.6,34.5z"/>
+                    <path id="XMLID_27_" class="st0" d="M41.9,47H46c0.6,0,1-0.5,1-1s-0.5-1-1-1h-5.1c-0.6,0-1,0.5-1,1V50h2V47z"/>
+                    <path id="XMLID_28_" class="st0" d="M31.8,50V46c0-0.6-0.5-1-1-1h-5.1c-0.6,0-1,0.5-1,1s0.5,1,1,1h4.1v3H31.8z"/>
+                    <path id="XMLID_29_" class="st0" d="M36.8,50v-6.1c0.6,0,1-0.5,1-1s-0.5-1-1-1v-2c0-0.6-0.5-1-1-1s-1,0.5-1,1v2c-0.6,0-1,0.5-1,1
+                        s0.5,1,1,1V50H36.8z"/>
+                    <path id="XMLID_32_" class="st0" d="M53.1,28.7H31.5c1.4-1.2,2.3-2.9,2.3-4.9c0-3.5-2.9-6.4-6.4-6.4c-3.5,0-6.4,2.9-6.4,6.4
+                        c0,2,0.9,3.7,2.3,4.9h-5.7v2h35.5V28.7z M23.1,23.8c0-2.3,1.9-4.3,4.3-4.3s4.3,1.9,4.3,4.3s-1.9,4.3-4.3,4.3S23.1,26.2,23.1,23.8z"
+                        />
+                    <circle id="XMLID_33_" class="st0" cx="27.4" cy="23.8" r="3.2"/>
+                    <path id="XMLID_34_" class="st0" d="M37.3,27.7h14.2c0.3,0,0.5-0.2,0.5-0.5s-0.2-0.5-0.5-0.5H37.3c-0.3,0-0.5,0.2-0.5,0.5
+                        S37.1,27.7,37.3,27.7z"/>
+                    <path id="XMLID_35_" class="st0" d="M38.4,25.7h12.2c0.3,0,0.5-0.2,0.5-0.5s-0.2-0.5-0.5-0.5H38.4c-0.3,0-0.5,0.2-0.5,0.5
+                        S38.1,25.7,38.4,25.7z"/>
+                    <path id="XMLID_36_" class="st0" d="M38.4,23.6h12.2c0.3,0,0.5-0.2,0.5-0.5s-0.2-0.5-0.5-0.5H38.4c-0.3,0-0.5,0.2-0.5,0.5
+                        S38.1,23.6,38.4,23.6z"/>
+                    <path id="XMLID_37_" class="st0" d="M41,21.6h6.3c1,0,1.6-1.4,1.6-2.3c0-0.7-0.3-1.7-0.8-1.7h-7.9c-0.5,0-0.8,1-0.8,1.7
+                        C39.5,20.2,40.1,21.6,41,21.6z"/>
+                </g>
+            </svg>
         </div>
-        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-
-
-      <!-- <div id="carousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="kitchen.jpg" alt="First slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="bedroom.jpg" alt="Second slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="living_room.jpg" alt="Third slide">
-          </div>
+        <div class="bathrom"> Bathroom
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" height="100" width="100"
+            viewBox="0 0 96 96" style="enable-background:new 0 0 96 96;" xml:space="preserve">
+                <style type="text/css">
+                .st0{fill:#e8d44f;}
+                </style>
+                <g id="XMLID_1_">
+                    <path id="XMLID_3_" class="st0" d="M24.3,50.2H22c-0.2,0-0.4,0-0.4,0l1.7,7.8c0,0,0.1,0,0.2,0h0.2h0.8c-0.9-1.1-1.5-2.3-1.5-4
+                        C23.1,52.6,23.5,51.3,24.3,50.2z"/>
+                    <path id="XMLID_4_" class="st0" d="M33.6,58L33.6,58l1.7-7.8c0,0-0.1,0-0.4,0h-2.2c0.7,1.1,1.2,2.4,1.2,3.9c0,1.7-0.6,2.9-1.5,4
+                        h1.2C33.6,58,33.6,58,33.6,58z"/>
+                    <path id="XMLID_5_" class="st0" d="M31.3,58c1.1-1.2,1.8-2.3,1.8-4c0-1.5-0.5-2.9-1.4-3.9c-0.3-0.3-0.7-0.7-1-0.9
+                        c-0.7-0.4-1.4-0.6-2.1-0.6c-0.8,0-1.5,0.2-2.1,0.6c-0.3,0.2-0.7,0.5-1,0.9c-0.9,1-1.4,2.4-1.4,3.9c0,1.7,0.7,2.7,1.8,4H31.3z"/>
+                    <path id="XMLID_6_" class="st0" d="M68.8,59.3c-0.7,0.2-1.4,0.3-2.2,0.3c-0.7,0-1.4-0.1-2-0.2l-1.7,13.2c0,0.2,0.2,0.3,0.4,0.3h6.8
+                        c0.2,0,0.4-0.2,0.4-0.4L68.8,59.3C68.8,59.3,68.8,59.3,68.8,59.3z"/>
+                    <path id="XMLID_7_" class="st0" d="M70.1,73.8L70.1,73.8z"/>
+                    <path id="XMLID_8_" class="st0" d="M75,51.9h-1h-2.5v-1.7H72c0.2,0,0.4-0.2,0.4-0.4v0c0-0.2-0.2-0.4-0.4-0.4h-0.7h-0.1H71h-0.1
+                        h-0.7c-0.2,0-0.4,0.2-0.4,0.4v0c0,0.2,0.2,0.4,0.4,0.4h0.5v1.7h-2.3l-0.5-2.4c-0.1-0.5-0.2-1.1-0.7-1.1v-1.4c0-0.2-0.2-0.4-0.4-0.4
+                        s-0.4,0.2-0.4,0.4v1.4c-0.5,0-0.8,0.4-0.9,1.1l-0.5,2.4h-2.9v-1.7h0.5c0.2,0,0.4-0.2,0.4-0.4v0c0-0.2-0.2-0.4-0.4-0.4h-0.8h-0.2
+                        h-0.8c-0.2,0-0.4,0.2-0.4,0.4v0c0,0.2,0.2,0.4,0.4,0.4h0.4v1.7h-1.9h-0.7c-0.2,0-0.4,0.2-0.4,0.4c0,0.2,0.2,0.4,0.4,0.4h0.3h0.4
+                        h0.4c0.1,2.5,2,4.7,4.5,5.5c0.7,0.2,1.6,0.4,2.5,0.4c0.9,0,1.8-0.2,2.6-0.4c2.5-0.9,4.3-3,4.4-5.5h0.4h0.4h0.6
+                        c0.2,0,0.4-0.2,0.4-0.4C75.5,52.1,75.3,51.9,75,51.9z"/>
+                    <path id="XMLID_9_" class="st0" d="M28.5,65.7c-1,0-2-0.2-2.8-0.5l-1.1,7.2c0,0.1,0.2,0.5,0.4,0.5h6.8c0.2,0,0.4-0.3,0.4-0.5
+                        l-1.1-7.1C30.3,65.5,29.4,65.7,28.5,65.7z"/>
+                    <path id="XMLID_10_" class="st0" d="M36,59.8h0.4h0.2c0.2,0,0.4-0.2,0.4-0.4c0-0.2-0.2-0.4-0.4-0.4h-0.1H36h-0.4h-2.2h-0.2h-1.6
+                        h-0.2h-1h-3.9h-1h-0.1h-1.5h-0.2c0,0,0,0-0.1,0h-2.1h-0.4c-0.2,0-0.3,0.1-0.4,0.3c0,0,0,0,0,0.1c0,0.1,0,0.1,0.1,0.2
+                        c0,0.1,0.1,0.2,0.3,0.2H21h0.5c0.4,1.8,1.7,3.3,3.5,4.1c0.1,0.1,0.3,0.1,0.4,0.2c0.1,0,0.2,0.1,0.4,0.1c0.8,0.3,1.7,0.5,2.7,0.5
+                        c0.9,0,1.7-0.1,2.5-0.4c0.1,0,0.2-0.1,0.4-0.1c0.2,0,0.3-0.1,0.4-0.2c1.9-0.9,3.3-2.4,3.7-4.3C35.5,59.8,36,59.8,36,59.8z"/>
+                    <path id="XMLID_11_" class="st0" d="M46.5,29.4l3,3c0.4-0.4,1.2-1.6,1.4-2.1L48.5,28C48.2,28.1,46.8,29,46.5,29.4z"/>
+                    <path id="XMLID_12_" class="st0" d="M46.5,31.2c0,0,0.1,0,0.2-0.1l0.3-0.3c0,0,0,0,0-0.1c0-0.1,0-0.2,0-0.2c-0.1-0.1-0.2-0.1-0.2,0
+                        c0,0,0,0-0.1,0l-0.3,0.3c-0.1,0.1-0.1,0.2,0,0.3C46.4,31.2,46.5,31.2,46.5,31.2z"/>
+                    <path id="XMLID_13_" class="st0" d="M45.5,32.1c0,0,0.1,0,0.2-0.1l0.3-0.3c0.1-0.1,0.1-0.2,0-0.3c-0.1-0.1-0.2-0.1-0.3,0l-0.3,0.3
+                        C45.3,31.8,45.3,32,45.5,32.1C45.4,32.1,45.5,32.1,45.5,32.1z"/>
+                    <path id="XMLID_14_" class="st0" d="M45.1,32.4c-0.1-0.1-0.2-0.1-0.3,0l-0.3,0.3c-0.1,0.1-0.1,0.2,0,0.3c0,0,0.1,0.1,0.2,0.1
+                        c0.1,0,0.1,0,0.2-0.1l0.3-0.3C45.2,32.7,45.2,32.5,45.1,32.4z"/>
+                    <path id="XMLID_15_" class="st0" d="M47,31.7c0,0,0.1,0.1,0.2,0.1c0.1,0,0.1,0,0.2-0.1l0.3-0.3c0,0,0,0,0-0.1c0-0.1,0-0.2,0-0.2
+                        c-0.1-0.1-0.2-0.1-0.2,0c0,0,0,0-0.1,0L47,31.4C46.9,31.5,46.9,31.7,47,31.7z"/>
+                    <path id="XMLID_16_" class="st0" d="M46.4,32.1L46,32.4c-0.1,0.1-0.1,0.2,0,0.3c0,0,0.1,0.1,0.2,0.1c0.1,0,0.1,0,0.2-0.1l0.3-0.3
+                        c0.1-0.1,0.1-0.2,0-0.3C46.6,32,46.4,32,46.4,32.1z"/>
+                    <path id="XMLID_17_" class="st0" d="M45.7,33c-0.1-0.1-0.2-0.1-0.3,0l-0.3,0.3c-0.1,0.1-0.1,0.2,0,0.3c0,0,0.1,0.1,0.2,0.1
+                        c0.1,0,0.1,0,0.2-0.1l0.3-0.3C45.8,33.2,45.8,33.1,45.7,33z"/>
+                    <path id="XMLID_18_" class="st0" d="M48,31.7C48,31.7,48,31.7,48,31.7l-0.4,0.3c-0.1,0.1-0.1,0.2,0,0.3c0,0,0.1,0.1,0.2,0.1
+                        c0.1,0,0.1,0,0.2-0.1l0.3-0.3c0,0,0,0,0-0.1c0-0.1,0-0.2,0-0.2C48.2,31.7,48.1,31.7,48,31.7z"/>
+                    <path id="XMLID_19_" class="st0" d="M47,32.7L46.7,33c-0.1,0.1-0.1,0.2,0,0.3c0,0,0.1,0.1,0.2,0.1c0.1,0,0.1,0,0.2-0.1l0.3-0.3
+                        c0.1-0.1,0.1-0.2,0-0.3C47.2,32.7,47.1,32.7,47,32.7z"/>
+                    <path id="XMLID_20_" class="st0" d="M46,33.7L45.7,34c-0.1,0.1-0.1,0.2,0,0.3c0,0,0.1,0.1,0.2,0.1c0.1,0,0.1,0,0.2-0.1l0.3-0.3
+                        c0.1-0.1,0.1-0.2,0-0.3C46.3,33.6,46.1,33.6,46,33.7z"/>
+                    <path id="XMLID_23_" class="st0" d="M60.2,28.8v0.4V41c0,1.2,1,2.2,2.2,2.2h8.3h0.4c1.2,0,2.2-1,2.2-2.2V28.8c0-1.2-1-2.2-2.2-2.2
+                        h-8.7C61.1,26.6,60.2,27.6,60.2,28.8z M71.1,27.5c0.7,0,1.3,0.6,1.3,1.3v0.4V41c0,0.7-0.6,1.3-1.3,1.3h-8.7c-0.7,0-1.3-0.6-1.3-1.3
+                        V28.8c0-0.7,0.6-1.3,1.3-1.3h8.3H71.1z"/>
+                    <path id="XMLID_26_" class="st0" d="M38.4,67.6v7h15.7h0.9h0.9h0.9V21.4H38.4V67.6z M39.2,22.2h16.6v45.4h-0.9V27.1
+                        c0-0.2-0.2-0.4-0.4-0.4h-2.1c-0.1,0-0.2,0-0.3,0.1L50.7,28c-0.4-0.3-1-0.1-1.4,0l1.6,1.6c0.1-0.2,0.1-0.5,0.2-0.7l1.4-1.4h1.5v40.1
+                        h-15V22.2z"/>
+                    <path id="XMLID_29_" class="st0" d="M42.1,44.1h-0.4c-0.8,0-1.5,0.7-1.5,1.5v3.9c0,0.8,0.7,1.5,1.5,1.5h0.4c0.8,0,1.5-0.7,1.5-1.5
+                        v-4C43.6,44.8,42.9,44.1,42.1,44.1z M42.7,49.5c0,0.3-0.3,0.7-0.7,0.7h-0.4c-0.3,0-0.7-0.3-0.7-0.7v-4c0-0.3,0.3-0.7,0.7-0.7h0.4
+                        c0.3,0,0.7,0.3,0.7,0.7V49.5z"/>
+                    <rect id="XMLID_30_" x="20.9" y="38.8" class="st0" width="14.9" height="2.6"/>
+                    <rect id="XMLID_31_" x="20.9" y="27.5" class="st0" width="14.9" height="2.6"/>
+                    <polygon id="XMLID_32_" class="st0" points="27.1,26.6 27.9,21.4 24.4,21.4 24.9,26.6 	"/>
+                    <path id="XMLID_35_" class="st0" d="M31.4,38v-3.5h-6.9V38H31.4z M26.1,36.2h3.5v0.9h-3.5V36.2z"/>
+                    <rect id="XMLID_36_" x="23.5" y="32.7" class="st0" width="8.7" height="0.9"/>
+                </g>
+            </svg>
         </div>
-        <a class="carousel-control-prev" onclick="previous()" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" onclick="next()" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-      </div> -->
+        <div class="lighting">Lighting
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="100" height="100"
+            viewBox="0 0 96 96" style="enable-background:new 0 0 96 96;" xml:space="preserve">
+                <style type="text/css">
+                .st0{fill:#e8d44f;}
+                </style>
+                <g id="XMLID_1_">
+                    <rect id="XMLID_3_" x="45.6" y="52.1" class="st0" width="4.7" height="20"/>
+                    <path id="XMLID_4_" class="st0" d="M55.1,52.1v3.4c-1.3,0.4-2.2,1.6-2.2,3c0,1.8,1.4,3.2,3.2,3.2c1.8,0,3.2-1.4,3.2-3.2
+                        c0-1.3-0.8-2.4-1.9-2.9v-3.5H55.1z"/>
+                    <polygon id="XMLID_5_" class="st0" points="50.4,49.8 55.1,49.8 57.4,49.8 71.1,49.8 68.5,18 68,18 27.5,18 24.9,49.8 45.6,49.8 	
+                        "/>
+                    <path id="XMLID_6_" class="st0" d="M32.7,75.6v1.2c0,0.6,0.5,1.2,1.2,1.2h27.1c0.6,0,1.2-0.5,1.2-1.2v-1.2c0-0.6-0.5-1.2-1.2-1.2
+                        H33.9C33.2,74.5,32.7,75,32.7,75.6z"/>
+                </g>
+            </svg>
+        </div>
+    </div>
 
-      <!-- <div class="banner-pics">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 50">
-            <path fill-opacity="1" d="M 0 0 C 50 10, 140 10, 190 0"></path>
-        </svg>
-
-          <img src="kitchen.jpg">
-      </div> -->
-
-
-      <!-- <div class="test"> 
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#0099ff" fill-opacity="1" d="M0,0L48,21.3C96,43,192,85,288,128C384,171,480,213,576,240C672,267,768,277,864,277.3C960,277,1056,267,1152,234.7C1248,203,1344,149,1392,122.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-          </svg>
-      </div> -->
+    <footer>
+        <div class="d-flex justify-content-around">
+            <div class="d-flex flex-column">
+                <h4>About Us</h4>
+                <ul>
+                    <li>News</li>
+                    <li>Democratic Design</li>
+                    <li>Sustainable Sourcing</li>
+                    <li>Safer Homes</li>
+                    <li>IKEA Foundation</li>
+                </ul>
+            </div>
+            <div class="d-flex-inline flex-column">
+                <h4>Helpful Links</h4>
+                <ul>
+                    <li>Nearest Stores</li>
+                    <li>Buying Guides</li>
+                    <li>Inspiring Rooms</li>
+                    <li>Gift Registry</li>
+                    <li>IKEA services</li>
+                    <li>IKEA Credit Card</li>
+                </ul>
+            </div>
+            <div class="d-flex flex-column">
+                <h4>Have Questions?</h4>
+                <ul>
+                    <li>Customer Service</li>
+                    <li>FAQ</li>
+                    <li>My Orders</li>
+                    <li>Warranties</li>
+                    <li>Contact Us</li>
+                    <li>Recalls</li>
+                    <li>Feedback</li>
+                </ul>
+            </div>
+            <div class="d-flex flex-column">
+                <h4>IKEA Catalog</h4>
+                <ul>
+                    <li>Request a Copy</li>
+                    <li>View Online</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

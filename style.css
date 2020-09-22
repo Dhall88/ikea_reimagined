@@ -1,5 +1,5 @@
 nav {
-    background-color: blue;
+    background-color: rgb(5, 62, 167);
     height: 5rem;
 }
 
@@ -13,17 +13,17 @@ nav {
 
 svg {
     position: absolute;
-    fill: blue;
+    fill: rgb(5, 62, 167);
     z-index: 2
 }
 
 .nav-container {
-    background-color: blue;
+    background-color: rgb(5, 62, 167);
     z-index: 2;
 }
 
 .ikea {
-    color: yellow;
+    color: #e8d44f;
     font-size: 6rem;
     text-align: center;
     margin: 0;
@@ -43,4 +43,42 @@ svg {
 
 #myCarousel > a{
     z-index: 3
+}
+
+.d-flex {
+    background: rgb(5, 62, 167);
+}
+
+.tiles > div {
+    /* display: block;
+    margin: auto; */
+    width: 25%;
+    height: 200px;
+    text-align: center;
+    line-height: 150px;
+    color: #e8d44f;
+}
+
+.lighting {
+    width: 25%;
+    height: 200px;
+}
+
+.d-flex> div > svg {
+    display: block;
+    margin: auto;
+    width: 25%;
+    margin-top: -6%;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: rgb(219, 216, 216);
+
+}
+
+h4 {
+    color:rgb(219, 216, 216);
 }
