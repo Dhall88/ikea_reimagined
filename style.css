@@ -1,6 +1,6 @@
 nav {
     background-color: blue;
-    height: 20rem;
+    height: 5rem;
 }
 
 .test {
@@ -13,14 +13,27 @@ nav {
 
 svg {
     display:block;
+    fill: blue;
 }
 
 .nav-container {
-    background-color: blue
+    background-color: blue;
+    z-index: 2;
 }
 
 .ikea {
     color: yellow;
     font-size: 6rem;
     text-align: center;
+    margin: 0;
+}
+.banner-pics > img {
+    display: inline-block;
+    /* position: absolute; */
+
+}
+
+.banner-pics > svg{
+    position: absolute;
+    z-index: 2;
 }
