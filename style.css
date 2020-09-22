@@ -12,8 +12,9 @@ nav {
 }
 
 svg {
-    display:block;
+    position: absolute;
     fill: blue;
+    z-index: 2
 }
 
 .nav-container {
@@ -27,13 +28,19 @@ svg {
     text-align: center;
     margin: 0;
 }
-.banner-pics > img {
-    display: inline-block;
-    /* position: absolute; */
+
+.carousel-item > img {
+    width: auto;
+    height: 40rem;
+    /* max-height: 225px; */
 
 }
 
 .banner-pics > svg{
     position: absolute;
     z-index: 2;
+}
+
+#myCarousel > a{
+    z-index: 3
 }
