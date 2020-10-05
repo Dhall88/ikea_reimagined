@@ -17,6 +17,11 @@ svg {
     z-index: 2
 }
 
+li>svg {
+    display: block;
+    position: relative;
+}
+
 .nav-container {
     background-color: rgb(5, 62, 167);
     z-index: 2;
@@ -29,10 +34,25 @@ svg {
     margin: 0;
 }
 
+
+li:hover > #navLink{
+    color: #8d8029;
+}
+
+li:hover .st1{
+    fill: #8d8029;
+}
+#navLink {
+    color: #e8d44f;
+}
+
+.st1 {
+    fill:#e8d44f;
+    }
+
 .carousel-item > img {
     width: auto;
     height: 40rem;
-    /* max-height: 225px; */
 
 }
 
@@ -180,3 +200,4 @@ h4 {
 .icon:hover {
     opacity: .5;
 }
+
